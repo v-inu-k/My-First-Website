@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinuk Atukorala</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/47602a98ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">What I do</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Undergraduate - Software Engineer</p>
+                <h1>Hi, I'm <span class="input"></span><br>from Sri Lanka</h1>
+        </div>
+    </div>
+
+    <!-- --About-- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p>2nd Year Student at Curtin University, Australia. I study Software Engineering and find interest in various fields of study.
+                        I am interested in Programming, Graphics Designing, and anything related to a computer or the internet.
+                        I also find interest in Formula 1 and other forms of motorsport. I am a very friendly person and I love to make new friends.
+                        I know a little bit of everything and I am always willing to learn new things.
+                    </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming</span><br>Literate in MySQL, git, Linux, App Development using Android Studio, some basic knowledge in HTML, CSS and more!<br>Fluency in Java, Python and C Languages - Currently learning the MERN Stack ;)</li>
+                                <i class="fa-brands fa-java"></i>
+                                <i class="fa-brands fa-python"></i>
+                                <i class="fa-brands fa-cuttlefish"></i>                            
+                                <li><span>Creative Designing</span><br>3+ years of experience using the following tools:<br> - Adobe Photoshop<br> - Adobe Illustrator <br> - Adobe After Effects<br> - Adobe Premier Pro<br> - DaVinci Resolve </li>
+                                <li><span>Social Media Marketing</span><br>Experience & Ability to use the following tools:<br> - Meta Business Suite (To upload content to Facebook and Instagram)<br> - Experience with Instagram and Facebook Algorithms<br> - Sound Understanding in tiktok marketing and algorithms </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Social Media Manager | Golden Maid Restaurant</span><br>2022 April</li>
+                                <li><span>Digital Media Manager | DutchTrails.lk</span><br>2021 May</li>
+                                <li><span>Marketing Director | FineMeals.lk</span><br>2021 February</li>
+                                <li><span>Restaurant Manager | GM Express, Negombo</span><br>August 2020</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Curtin University, Australia (Ongoing)</span><br>2021 - 2024<br>Bachelor's degree, Software Engineering<br>Student Ambassador</li>
+                                <li><span>Gateway College, Sri Lanka</span><br>2007 - 2021<br><br>Ordinary Level Examination<br> - Edexcel IGCSE: 1 A*, 9 A, 1 B<br><br>Advanced Level Examination<br> - Cambridge IAL: 2 A*<br> - Edexcel IAL Examination: 1 C, 1 D<br><br>Head of Sports(Prefects' Guild) and House Captain</li>
+                                <li><span>Decorated Postitions</span><br>Student Ambassador for Curtin University<br><br>Prefects' Guild - Head of Sports<br>President of the Media Unit<br>House Captain</li>                            
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="certifications">
+                            <ul>
+                                <li><span>The Duke of Edinburgh's Award (Bronze)</span><br>October 2021<br>Issued by Duke of Edinburgh's International Award Foundation</li>
+                                <li><span>Runners Up for Asia Pacific Logo Design Competition</span><br>February 2021<br>Issued by Asia Pacific Institute Malaysia</li>
+                                <li><span>APICTA Young Computer Scientist Competition - Gold Award (Senior Category)</span><br>August 2020<br>Issued by Education Ministry of Sri Lanka</li>
+                                <li><span>Drama in LAMDA - Gold Award</span><br>August 2019<br>Issued by LAMDA</li>
+                                <li><span>APICTA Young Computer Scientist Competition - Special Merit (Junior Category)</span><br>August 2018<br>Issued by Education Ministry of Sri Lanka</li>
+                                <li><span>The Queen's Commonwealth Essay Competition - Bronze Award (Junior Category)</span><br>September 2018<br>Issued by Royal Commonwealth Society</li>
+                                <li><span>Aviation Fundamentals and Aircraft Electrical and Instrument Systems (Top Performer)</span><br>December 2016<br>Issued by Sri Lanka Air Force</li>
+
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --Services-- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Things I like to do...</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programming</h2>
+                    <p>I have a passion for programming, hence my major in Software Engineering. I have built applications for Android Devices and more. I an knowledgable in SQL and HTML as well!</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Graphics Designing</h2>
+                    <p>I've been doing graphics design since I was 16 years old as a hobby and I am fluent in most applications of the Adobe Creative Suite and more. I have worked with over 30 clients over my 4 years of experience.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hashtag"></i>
+                    <h2>Social Media Marketing</h2>
+                    <p>I have found interest in Social Media algorithms and how Social media promotes content. This led me to start social media marketing for small businesses. I have worked with 3 businesses to take their businesses online through Facebook and Instagram.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="full-img" id="fullImgBox">
+            <img src="images/Autumn.png" id="fullImg">
+            <span onclick="closeFullImg()"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+        <div class="work">
+            <img src="images/Front New.png" onclick="openFullImg()">
+            <img src="images/Image 1.jpg" onclick="openFullImg()">
+            <img src="images/logo.png" onclick="openFullImg()">
+        </div>
+    </div>
+</div>
+
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> vinuk.atukorala@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +94 777171717</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vinukatukorala/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/94777171717" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/v_inu_k/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/v_inu_k" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/VinukAtukorala" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>                    
+                </div>
+                <a href="images/Vinuk Atukorala - Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name">
+                    <input type="email" name="Email" placeholder="Your Email">
+                    <textarea name="Message" rows="6" placeholder="Type your message here!"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Vinuk Atukorala | Made this by myself <i class="fa-solid fa-poo"></i></p>
+    </div>
+    
+    
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(var i=0; i<tablinks.length; i++){
+            tablinks[i].className = tablinks[i].className.replace("active-link", "");
+        }
+        for(var i=0; i<tabcontents.length; i++){
+            tabcontents[i].className = tabcontents[i].className.replace("active-tab", "");
+        }
+        document.getElementById(tabname).className += " active-tab";
+        event.currentTarget.className += " active-link";
+    }
+</script>
+
+<script type="text/javascript" src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".input", {
+        strings: ["Vinuk Atukorala","a Graphics Designer", "a Software Engineer"],
+        typeSpeed: 100,
+        backSpeed: 50,
+        loop: true
+    });
+</script>
+
+<script>
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(){
+        fullImgBox.style.display = "flex";
+        fullImg.src = event.target.src;
+    }
+
+    function closeFullImg(){
+        fullImgBox.style.display = "none";
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyclrYGuwzBV02yTVz3POC_ghXGEzQrajxqilEziGmVgxe0pIuNtfA9XCGv2gisWElpEA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            form.reset()
+            setTimeout(function(){msg.innerHTML = ""}, 3000);
+            console.log('Success!', response)
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
